@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Important to make website responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Website</title>
+
+    <!-- Link our CSS file -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Navbar Section Starts Here -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html" title="Logo">
+                    <img src="images/logo.png" alt="Restaurant Logo" class="img-responsive">
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="categories.html">Categories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="foods.html">Foods</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Section Ends Here -->
+
+
+    <!-- fOOD SEARCH Section Starts Here -->
+    <section class="food-search text-center">
+        <div class="container">
+
+            <form action="food-search.html" method="POST">
+                <input type="search" name="search" placeholder="Search for Food.." required>
+                <input type="submit" name="submit" value="Search" class="btn btn-primary py-2 px-3 m-2">
+            </form>
+
+        </div>
+    </section>
+    <!-- fOOD sEARCH Section Ends Here -->
+
+
+    <!-- CAtegories Section Starts Here -->
+    <section class="categories">
+        <div class="container">
+            <h2 class="text-center">Explore Foods</h2>
+
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <a href="category_foods.html">
+                        <div class="box-3 float-container">
+                            <img src="images/menu-pizza.jpg" alt="Pizza" class="img-responsive img-curve">
+                            <h3 class="float-text text-white">Lorem, ipsum.</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <a href="category_foods.html">
+                        <div class="box-3 float-container">
+                            <img src="images/menu-burger.jpg" alt="Pizza" class="img-responsive img-curve">
+                            <h3 class="float-text text-white">Lorem, ipsum.</h3>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <a href="category_foods.html">
+                        <div class="box-3 float-container">
+                            <img src="images/menu-momo.jpg" alt="Pizza" class="img-responsive img-curve">
+                            <h3 class="float-text text-white">Lorem, ipsum.</h3>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+    <!-- Categories Section Ends Here -->
+
+
+    <!-- fOOD MEnu Section Starts Here -->
+    <section class="food-menu">
+        <div class="layer">
+            <div class="container">
+
+                <div class="my-2">
+                    <h2 class="text-center">Food Menu</h2>
+                </div>
+
+
+                <div class="row">
+
+                    <div class="col-md-6 col-sm-12">
+                        <div class="food-menu-box">
+                            <div class="food-menu-img">
+                                <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza"
+                                    class="img-responsive img-curve">
+                            </div>
+
+                            <div class="food-menu-desc1">
+                                <h4>Food Title</h4>
+                                <p class="food-price">20 egp</p>
+                                <p class="food-detail">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+
+                                <a href="order.html" class="btn btn-primary">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <div class="food-menu-box">
+                            <div class="food-menu-img">
+                                <img src="images/menu-momo.jpg" alt="Chicke Hawain Pizza"
+                                    class="img-responsive img-curve">
+                            </div>
+
+                            <div class="food-menu-desc1">
+                                <h4>Food Title</h4>
+                                <p class="food-price">20 egp</p>
+                                <p class="food-detail">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+
+                                <a href="order.html" class="btn btn-primary">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <div class="food-menu-box">
+                            <div class="food-menu-img">
+                                <img src="images/menu-burger.jpg" alt="Chicke Hawain Pizza"
+                                    class="img-responsive img-curve">
+                            </div>
+
+                            <div class="food-menu-desc1">
+                                <h4>Food Title</h4>
+                                <p class="food-price">20 egp</p>
+                                <p class="food-detail">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+
+                                <a href="order.html" class="btn btn-primary">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <div class="food-menu-box">
+                            <div class="food-menu-img">
+                                <img src="images/menu-pizza.jpg" alt="Chicke Hawain Pizza"
+                                    class="img-responsive img-curve">
+                            </div>
+
+                            <div class="food-menu-desc1">
+                                <h4>Food Title</h4>
+                                <p class="food-price">20 egp</p>
+                                <p class="food-detail">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+
+                                <a href="order.html" class="btn btn-primary">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <div class="food-menu-box">
+                            <div class="food-menu-img">
+                                <img src="images/menu-momo.jpg" alt="Chicke Hawain Pizza"
+                                    class="img-responsive img-curve">
+                            </div>
+
+                            <div class="food-menu-desc1">
+                                <h4>Food Title</h4>
+                                <p class="food-price">20 egp</p>
+                                <p class="food-detail">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+
+                                <a href="order.html" class="btn btn-primary">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <div class="food-menu-box">
+                            <div class="food-menu-img">
+                                <img src="images/menu-burger.jpg" alt="Chicke Hawain Pizza"
+                                    class="img-responsive img-curve">
+                            </div>
+
+                            <div class="food-menu-desc1">
+                                <h4>Food Title</h4>
+                                <p class="food-price">20 egp</p>
+                                <p class="food-detail">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </p>
+
+                                <a href="order.html" class="btn btn-primary">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <p class="text-center mt-3">
+                <a href="foods.html">See All Foods > </a>
+            </p>
+        </div>
+    </section>
+    <!-- fOOD Menu Section Ends Here -->
+
+
+
+
+    <!-- footer Section Starts Here -->
+    <section class="footer text-center p-2 mt-3">
+
+        <!-- social div Starts Here -->
+        <div class="social ">
+            <div class="container">
+                <ul>
+                    <li>
+                        <i class="fa-brands fa-facebook"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-instagram"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-github"></i>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- social div Ends Here -->
+
+        <div class="container">
+            <p> All rights reserved. Designed By Team ELMATBA5 </p>
+        </div>
+
+    </section>
+    <!-- footer Section Ends Here -->
+
+
+    <!-- <div class="toTopBtn">
+        <i class="fa-solid fa-up"></i>
+    </div> -->
+
+    <!-- <script src="js/main.js"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

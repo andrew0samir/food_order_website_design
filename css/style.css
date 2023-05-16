@@ -1,0 +1,243 @@
+
+/* CSS for All */
+*{
+    margin: 0 ;
+    padding: 0 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-white{
+    color: white;
+}
+
+nav ul li .nav-link{
+    color: #09c;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li .nav-link:hover{
+    color: blue;
+}
+
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 100px ;
+}
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 40px 0;
+}
+.bg-gray{
+    background-color: #ececec;
+}
+.box-3{
+    margin: 10px ;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: #ececec;
+    padding: 50px ;
+}
+.layer{
+    margin-left: 25px ;
+}
+.food-menu-box{
+    margin: 10px;
+    padding: 15px ;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food-menu-img{
+    width: 100%;
+}
+.food-menu-desc1 {
+    width: 100%;
+    margin-left: 40px ;
+}
+.food-menu-desc2 {
+    width: 100%;
+}
+.layer i {
+    font-size: 30px;
+    background-color: #09c;
+}
+.food-price{
+    background-color: #09c;
+    width: fit-content;
+    padding: 10px ;
+    border-radius: 10px ;
+    color: #fff;
+    font-size: 1rem;
+    margin: 10px 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 10px ;
+}
+.social i{
+    font-size: 30px ;
+    cursor: pointer;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: auto;
+}
+.input-responsive{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px ;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    width: 60%;
+    margin-bottom: 10px; 
+    font-weight: bold;
+}
+legend{
+    float: none;
+    width: fit-content;
+    padding-left: 5px ;
+    padding-right: 5px ;
+    margin-bottom: .1rem;
+    font-size: calc(1.275rem + .3vw);
+    line-height: inherit;
+}
+
+
+
+
+body{
+    position: relative;
+}
+.toTopBtn{
+    width: 50px ;
+    height: 50px ;
+    border: 2px solid #09c ;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 50px ;
+    right: 50px ;
+    z-index: 9999;
+}
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 30%;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .float-text{
+        left: 150px;
+    }
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
